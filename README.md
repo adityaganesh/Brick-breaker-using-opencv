@@ -6,7 +6,7 @@ Now the fun part is the paddle is not controlled by your keyboard but using a bl
 move correspondingly. 
 ## How did I achieve this?
 Now to achieve this one obvious thing is we need to be using image processing so we use the opencv package which is a open source package for image processing using python.
-
+To install this package in windows use this command in you command prompt to install the package 
 ```
 pip install opencv-python
 
