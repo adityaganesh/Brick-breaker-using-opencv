@@ -6,8 +6,10 @@ Now the fun part is the paddle is not controlled by your keyboard but using a bl
 move correspondingly. 
 ## How did I achieve this?
 Now to achieve this one obvious thing is we need to be using image processing so we use the opencv package which is a open source package for image processing using python.
-Now the main thing is to track the blue card and to do this we will be using a hsv values of the card and we will find the contour of blue card and find the centre of the contour and map the centre to the paddles x and y coordinate to move it.
-```
-pip install opencv
 
 ```
+pip install opencv-python
+
+```
+
+Now the main thing is to track the blue card and to do this we will be using a hsv values of the card and we will find the contour of blue card and find the centre of the contour and map the centre to the paddles x and y coordinate to move it.
